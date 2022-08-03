@@ -1,0 +1,64 @@
+.total-size {
+        padding: 0;
+        margin: 0;
+}
+.result-screen {
+        height: 15%;
+        top: 50px;
+        background-color: black;
+        padding-right: 8px;
+        display: flex;
+        color: white;
+        font-size: 40px;
+        font-family: "Courier New", Courier, monospace;
+        justify-content: flex-end;
+        align-items: center;
+}
+.calc {
+        width: 400px;
+        height: 500px;
+        background-color: black;
+        
+}
+#zero-button {
+        width: 74.9%;
+}
+
+#c-button {
+        width: 49.6%;
+}
+
+.buttons {
+        background-color: #d8d9db;
+        color: black;
+        height: 83.4px;
+        width: 24.5%;
+        border: none;
+        border-radius: 0;
+        font-size: 40px;
+        cursor: pointer;
+}
+
+.calc-rows {
+        display: flex;
+        align-content: stretch;
+        justify-content: space-between;
+        margin-bottom: 0.5%;
+}
+
+#last-buttons {
+        background-color: #df974c;
+        color: white;
+}
+#last-buttons:hover {
+        background-color: #dfb07e;
+}
+
+.buttons:hover {
+        background-color: #ebebeb;
+}
+
+.rows {
+        display: flex;
+        flex-direction: column-reverse;
+}
